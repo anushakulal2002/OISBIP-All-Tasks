@@ -1,0 +1,94 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+.container {
+    margin: auto;
+}
+
+.todo-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+    border: solid 1px #00000018;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+.checkbox-div {
+    align-self: center;
+    padding: 3px;
+}
+.task-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    gap: 3px;
+    justify-content: space-between;
+}
+.input-form>#input,
+#description {
+    background-color: #ffffff;
+    border: solid 1px #00000043;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    border-radius: 3px;
+    padding: 5px;
+    /* height: 100%; */
+    transition: all 150ms ease-out;
+    border: solid 1px #0000002d;
+}
+button:hover {
+    border: solid 1px #00000078;
+    transition: all 150ms ease-in;
+}
+.buttons-form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    height: 100%;
+}
+.add-btn {
+    background-color: green;
+    font-weight: bolder;
+}
+.delete-btn {
+    background-color: plum;
+    font-weight: bold;
+}
+.edit-btn {
+    background-color: wheat;
+    font-weight: bold;
+}
+.update-btn {
+    background-color: salmon;
+    font-weight: bold;
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.finished-tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.finished{
+    background-color: rgb(216, 216, 216);
+    border: solid 1px #00000020;
+}
